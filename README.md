@@ -24,7 +24,7 @@ Tiny JS library for creating a stopwatch fast and simple!
 ```
 import {Stopwatch} from './dist/stopwatch.js'
 
-const DOM {
+const DOM = {
   stopwatchSpan: document.querySelector('.stopwatchSpan'),
   buttons: document.querySelector('.buttons');
 };
@@ -33,6 +33,6 @@ const DOM {
 const sw = new Stopwatch(DOM.stopwatchSpan);
 
 // Make control buttons to work
-sw.configureButtons(buttons)
+sw.configureButtons(DOM.buttons)
 
 ```
